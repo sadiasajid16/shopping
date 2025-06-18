@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Top Shelf Dispensary</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="top-bar text-white text-center px-4">
+    LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout. <strong>23 : 15 : 00</strong>
+    </div>
+    <nav class="navbar bg-white border-bottom">
+        <div class="container d-flex justify-content-between align-items-center px-4">
+            <a class="navbar-brand" href="#">
+            <img src="/assets/nav-logo.png" alt="Top Shelf" style="height: 40px;">
+            </a>
+            <form class="d-none d-lg-flex flex-grow-1 mx-3 gap-2">
+                <input class="form-control w-75 rounded-5" type="search" placeholder="Search" aria-label="Search">
+                <img src="/assets/search.png" alt="search-icon">
+            </form>
+            <div class="d-none d-lg-flex align-items-center gap-3">
+                <a href="#" class="text-dark text-decoration-none">Your Account</a>
+                <a href="#"><img src="/assets/bag.jpg" alt="Bag" style="height: 24px;"></a>
+            </div>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="bg-light category-nav border-bottom d-none d-lg-flex justify-content-center py-2 gap-3 flex-wrap">
+        <a href="#">Shop All</a>
+        <a href="#">Flower</a>
+        <a href="#">Edibles</a>
+        <a href="#">Concentrates</a>
+        <a href="#">Mushrooms</a>
+        <a href="#">Promotions/Bundles</a>
+        <a href="#">Support</a>
+        <a href="#">Rewards</a>
+        <a href="#">Blog</a>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <form class="d-flex mb-3 gap-2">
+            <input class="form-control rounded-5 text-center" type="search" placeholder="Search">
+            </form>
+            <div class="mb-4 d-flex flex-column gap-2">
+                <a href="#" class="text-decoration-none toggle-acc  text-center justify-content-center d-flex rounded-5">Your Account</a>
+            </div>
+
+            <div class="d-flex flex-column category-nav gap-2">
+            <a href="#">Shop All</a>
+            <a href="#">Flower</a>
+            <a href="#">Edibles</a>
+            <a href="#">Concentrates</a>
+            <a href="#">Mushrooms</a>
+            <a href="#">Promotions/Bundles</a>
+            <a href="#">Support</a>
+            <a href="#">Rewards</a>
+            <a href="#">Blog</a>
+            </div>
+        </div>
+    </div>
+    <section class="hero container-fluid py-5 text-white position-relative overflow-hidden">
+        <div class="custom-container mx-auto px-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 ps-md-5">
+                    <p class="text-warning text-uppercase small">Best Seller</p>
+                    <h1 class="display-4 fw-bold w-lg-50">Best Dispensary to Buy Weed Online</h1>
+                    <p class="lead">Vitamins & Supplements</p>
+                    <p class="mb-4 shipping">
+                        <strong>Get 25% off </strong>&nbsp; | &nbsp; <strong>Free Shipping</strong>
+                    </p>
+                    <a href="#" class="btn-green border-0 text-white rounded-5 text-decoration-none">Shop All</a>
+                </div>
+
+                <div class="col-md-6 cubes position-relative">
+                    <div class="isometric-cube cube1 position-absolute">
+                        <img src="/assets/isometric-cubic.png" alt="Product 1" class="cube-img1 position-absolute z-2">
+                    </div>
+                    <div class="isometric-cube cube2 position-absolute">
+                        <img src="/assets/cube2.png" alt="Product 2" class="cube-img2 position-absolute z-2">
+                    </div>
+                    <div class="isometric-cube cube3 position-absolute">
+                        <img src="/assets/cube3.png" alt="Product 3" class="cube-img3 position-absolute z-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 info">
+        <div class="container px-4">
+            <div class="row gy-4 info-section">
+            <div class="col-lg-4">
+                <div class="d-flex align-items-start p-4 rounded ">
+                <img src="/assets/button.png" alt="Shipping" width="60" class="me-3 mt-1">
+                <div>
+                    <h6 class="fw-bold mb-2">Reliable Shipping</h6>
+                    <p class="mb-0 small text-muted">
+                    Green Society provides Canada Post Xpress Shipping right to your doorstep!
+                    You can also opt in for shipping insurance. For orders over $149, shipping is free!
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex align-items-start p-4 rounded">
+                    <img src="/assets/Button (1).png" alt="Secure Payment" width="60" class="me-3 mt-1">
+                <div>
+                    <h6 class="fw-bold mb-2">You’re Safe With Us</h6>
+                    <p class="mb-0 small text-muted">
+                    Our secure payment system accepts the most common forms of payments making the checkout process quicker! 
+                    The payments we accept are debit, all major credit cards, and cryptocurrency.
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="d-flex align-items-start p-4 rounded ">
+                <img src="/assets/Button (2).png" alt="Quality Pricing" width="60" class="me-3 mt-1">
+                <div>
+                    <h6 class="fw-bold mb-2">Best Quality & Pricing</h6>
+                    <p class="mb-0 small text-muted">
+                    We take pride in the quality of our products and service.
+                    Our prices are set to ensure you receive your medication at a reasonable price and safely.
+                    </p>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="container py-5 px-4">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">BEST DISPENSARY TO BUY <br> WEED ONLINE IN CANADA</h2>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-2 mt-3">
+            <button class="btn btn-outline-success rounded-5 px-4 w-100 w-sm-25">Best Sellers</button>
+            <button class="btn btn-outline-secondary rounded-5 px-4 w-100 w-sm-25">Bundles & Promotions</button>
+            <button class="btn btn-outline-secondary rounded-5 px-4 w-100 w-sm-25">On Sale</button>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column flex-md-row gap-3">
+            <div class="promo-box col-12 col-md-3 flex-shrink-0">
+                <div class="promo-main text-white p-4 rounded product-card text-center h-100 bg-success rounded-3 overflow-hidden">
+                    <img src="assets/weed1.png" alt="Promo" class="mb-3">
+                    <h5>Shop our Best Sellers</h5>
+                    <p class="small">Lorem ipsum dolor sit amet consectetur...</p>
+                    <a href="#" class="text-white text-decoration-underline">View All</a>
+                </div>
+            </div>
+            <div class="card-scroller-wrapper position-relative flex-grow-1 overflow-hidden">
+            <button class="arrow-btn product-left-arrow position-absolute start-0 top-50 translate-middle-y z-3 border-0 d-flex align-items-center bg-light">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+
+            <div class="card-scroller d-flex flex-nowrap overflow-auto flex-sm-row">
+                <div class="product-card-container flex-shrink-0 me-3" style="width: 250px;">
+                    <div class="position-relative product-card-weed p-3 text-center border rounded">
+                        <img src="/assets/weed2.png" class="mb-2" alt="Weed">
+                        <p class="small text-muted mb-1">FLOWER</p>
+                        <h6 class="fw-bold">2 Oz Deal Watermelon Zkittles</h6>
+                        <p class="mb-1 text-warning small">★ 4.6/5 · 135 Reviews</p>
+                        <p class="text-danger fw-bold">$80.00 / gram</p>
+                        <div class="d-flex justify-content-center gap-2 mb-2">
+                        <span class="badge bg-light text-dark">28g</span>
+                        <span class="badge bg-light text-dark">1/2 lb</span>
+                        <span class="badge bg-light text-dark">1/4 lb</span>
+                        </div>
+                        <button class="btn-green border-0 text-white rounded-5">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card-container flex-shrink-0 me-3" style="width: 250px;">
+                    <div class="position-relative product-card-weed p-3 text-center border rounded">
+                        <div class="out-of-stock position-absolute rounded-2 text-white">
+                            Out Of Stock
+                        </div>
+                        <img src="/assets/weed1.png" class="mb-2" alt="Weed 2">
+                        <p class="small text-muted mb-1">CONCENTRATES</p>
+                        <h6 class="fw-bold">Mix And Match Shatter/Budder 28g (4 X 7G)</h6>
+                        <p class="mb-1 text-warning small">★ 4.6/5 · 135 Reviews</p>
+                        <p class="text-danger fw-bold"><s>$200.00</s> $102.00</p>
+                        <div class="d-flex justify-content-center gap-2 mb-2">                                <span class="badge bg-light text-dark">28g</span>
+                            <span class="badge bg-light text-dark">1/2 lb</span>
+                            <span class="badge bg-light text-dark">1/4 lb</span>
+                        </div>
+                        <button class="btn-green border-0 text-white rounded-5">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card-container flex-shrink-0 me-3" style="width: 250px;">
+                    <div class="position-relative product-card-weed p-3 text-center border rounded">
+                        <span class="badge-sale position-absolute text-dark rounded-2">60¢ ounce</span>
+                        <img src="/assets/weed2.png" class="mb-2" alt="Weed 3">
+                        <p class="small text-muted mb-1">FLOWER</p>
+                        <h6 class="fw-bold">2 Oz Deal Ahi Tuna + Master Tuna</h6>
+                        <p class="mb-1 text-warning small">★ 4.6/5 · 135 Reviews</p>
+                        <p class="text-danger fw-bold"><s>$200.00</s> $120.00</p>
+                        <div class="d-flex justify-content-center gap-2 mb-2">
+                            <span class="badge bg-light text-dark">28g</span>
+                            <span class="badge bg-light text-dark">1/2 lb</span>
+                            <span class="badge bg-light text-dark">1/4 lb</span>
+                        </div>
+                        <button class="btn-green border-0 text-white rounded-5 ">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card-container flex-shrink-0 me-3" style="width: 250px;">
+                    <div class="position-relative product-card-weed p-3 text-center border rounded">
+                        <div class="out-of-stock  position-absolute rounded-2 text-white">
+                            Out Of Stock
+                        </div>
+                        <img src="/assets/weed1.png" class="mb-2" alt="Weed 2">
+                        <p class="small text-muted mb-1">CONCENTRATES</p>
+                        <h6 class="fw-bold">Mix And Match Shatter/Budder 28g (4 X 7G)</h6>
+                        <p class="mb-1 text-warning small">★ 4.6/5 · 135 Reviews</p>
+                        <p class="text-danger fw-bold"><s>$200.00</s> $102.00</p>
+                        <div class="d-flex justify-content-center gap-2 mb-2">                                <span class="badge bg-light text-dark">28g</span>
+                            <span class="badge bg-light text-dark">1/2 lb</span>
+                            <span class="badge bg-light text-dark">1/4 lb</span>
+                        </div>
+                        <button class="btn-green border-0 text-white rounded-5">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="arrow-btn product-right-arrow position-absolute end-0 top-50 translate-middle-y z-3 bg-light border-0 d-flex align-items-center">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials-section text-center py-5">
+        <div class="testimonials-content container px-4 position-relative">
+            <h2 class="section-title mb-4">CUSTOMER TESTIMONIALS</h2>
+            <div class="testimonials-scroller d-flex flex-nowrap overflow-x-auto overflow-y-hidden gap-3 px-2">
+                <div class="testimonial-card google-review-card rounded-3 text-start p-4 text-white flex-shrink-0" style="width: 300px;">
+                    <h5 class="review-label fw-bold">VOTED BEST ONLINE DISPENSARY IN CANADA</h5>
+                    <hr class="review-hr">
+                    <div class="google-logo mb-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Logo">
+                    </div>
+                    <p class="mb-1">EXCELLENCE</p>
+                    <div class="star-rating d-flex text-warning mb-1">
+                        <div>
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                        <div>
+                            <p class="reviews-count text-white"><strong>on 135</strong> Reviews</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow-btn testimonial-left-arrow position-absolute top-50 start-0 translate-middle-y z-3 bg-light border-0 d-flex align-items-center">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <div class="testimonial-card person-review-card bg-white rounded-2 text-start p-3 flex-shrink-0" style="width: 300px;">
+                    <div class="reviewer-info d-flex align-items-center mb-2">
+                        <img src="/assets/vikki.png" alt="Vikki Starr" class="rounded-circle object-fit-cover" width="40" height="40">
+                    <span class="ms-2 fw-bold">Vikki Starr</span>
+                    </div>
+                    <hr>
+                    <div class="star-rating text-warning mb-2">
+                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p class="review-text">Absolutely love TopShelfBC, affordable on any budget and such fast delivery, straight to my door! I recommend them to all my friends and family for their 420 needs.</p>
+                    <p class="review-date text-muted small">January 15, 2023</p>
+                </div>
+
+                <div class="testimonial-card person-review-card bg-white rounded-2 text-start p-3 flex-shrink-0" style="width: 300px;">
+                    <div class="reviewer-info d-flex align-items-center mb-2">
+                    <img src="/assets/terry.png" alt="Terry Boskey" class="rounded-circle object-fit-cover" width="40" height="40">
+                    <span class="ms-2 fw-bold">Terry Boskey</span>
+                    </div>
+                    <hr>
+                    <div class="star-rating text-warning mb-2">
+                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p class="review-text">Best damn place to buy your cannabis at great prices</p>
+                    <p class="review-date text-muted small">January 5, 2023</p>
+                </div>
+                <div class="testimonial-card person-review-card bg-white rounded-2 text-start p-3 flex-shrink-0" style="width: 300px;">
+                    <div class="reviewer-info d-flex align-items-center mb-2">
+                    <img src="/assets/terry.png" alt="Terry Boskey" class="rounded-circle object-fit-cover" width="40" height="40">
+                    <span class="ms-2 fw-bold">Terry Boskey</span>
+                    </div>
+                    <hr>
+                    <div class="star-rating text-warning mb-2">
+                    <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                    </div>
+                    <p class="review-text">Best damn place to buy your cannabis at great prices</p>
+                    <p class="review-date text-muted small">January 5, 2023</p>
+                </div>
+            </div>
+
+            <button class="arrow-btn testimonial-right-arrow position-absolute top-50 end-0 translate-middle-y z-3 bg-light border-0 d-flex align-items-center">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+    <div class="no-testimonial-message text-center fw-bold text-muted d-none">
+        We are working on it.
+    </div>
+    <div class="container py-5 px-4">
+        <h1 class="text-md-start text-center mb-5">CHOOSE YOUR WEED</h1>
+
+        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start mb-4 align-items-lg-center">
+            <span class="me-3 align-self-center flex-md-row">Filter by Interest</span>
+            <div class="filter-buttons d-flex flex-wrap justify-content-center flex-sm-row flex-column w-100">
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="flower">Flowers</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="mushrooms">Mushrooms</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="concentrate">Concentrate</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="edibles">Edibles</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="all">Shop All Weed</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row g-3">
+                <div class="col-md-6 col-lg-3 ">
+                    <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="concentrate">
+                        <span class="position-absolute out-of-stock position-absolute rounded-2 text-white">Out Of Stock</span>
+                        <img src="/assets/weed1.png" class="product-image img-fluid mb-2" alt="Mix And Match Shatter / Budder">
+                        <p class="text-uppercase text-muted mb-1 small">Concentrated</p>
+                        <h5 class="mb-2">Mix And Match Shatter / Budder 28g (4 X 7g)</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">4.6/5</strong> | 
+                            <strong class="text-dark">135</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$200.00</span>
+                            <span class="text-danger fw-bold">$102.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">1/8th</small>
+                            <small class="text-muted">1/4th</small>
+                            <small class="text-muted">1/2th</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="flower">
+                    <img src="/assets/weed2.png" class="product-image img-fluid mb-2" alt="2 Oz Oul Watermelon Zkittlez">
+                    <p class="text-uppercase text-muted mb-1 small">Flower</p>
+                    <h5 class="mb-2">2 Oz Oul Watermelon Zkittlez + Purple Gushers</h5>
+                    <div class="mb-2">
+                        <span class="text-warning">&#9733;</span> 
+                        <strong class="text-dark">4.6/5</strong> | 
+                        <strong class="text-dark">135</strong>
+                        <span class="text-muted"> Reviews</span>
+                    </div>
+                    <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                    <div class="mb-3">
+                        <span class="text-decoration-line-through text-muted me-2">$150.00</span>
+                        <span class="text-danger fw-bold">$80.00</span>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3 gap-3">
+                        <small class="text-muted">1/8th</small>
+                        <small class="text-muted">1/4th</small>
+                        <small class="text-muted">1/2th</small>
+                    </div>
+                    <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-category="flower">
+                        <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center">
+                        <img src="/assets/weed2.png" class="product-image img-fluid mb-2" alt="2 Oz Oul Watermelon Zkittlez">
+                        <p class="text-uppercase text-muted mb-1 small">Flower</p>
+                        <h5 class="mb-2">2 Oz Oul Watermelon Zkittlez + Purple Gushers</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">4.6/5</strong> | 
+                            <strong class="text-dark">135</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$150.00</span>
+                            <span class="text-danger fw-bold">$80.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">1/8th</small>
+                            <small class="text-muted">1/4th</small>
+                            <small class="text-muted">1/2th</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                        <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="flower">
+                        <span class="position-absolute price-badge text-white rounded-2 position-absolute top-0 left-0 z-1 ">$60 ounce</span>
+                        <img src="/assets/weed2.png" class="product-image img-fluid mb-2" alt="2 Oz Oul Ahu Tuna + Master Tuna">
+                        <p class="text-uppercase text-muted mb-1 small">Flower</p>
+                        <h5 class="mb-2">2 Oz Oul Ahu Tuna + Master Tuna</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">4.6/5</strong> | 
+                            <strong class="text-dark">135</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$220.00</span>
+                            <span class="text-danger fw-bold">$120.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">1/8th</small>
+                            <small class="text-muted">1/4th</small>
+                            <small class="text-muted">1/2th</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                        <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="flower">
+                        <img src="/assets/weed3.png" class="product-image img-fluid mb-2" alt="Another Product">
+                        <p class="text-uppercase text-muted mb-1 small">Flower</p>
+                        <h5 class="mb-2">Another Product Name Here</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">5.0/5</strong> | 
+                            <strong class="text-dark">150</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$100.00</span>
+                            <span class="text-danger fw-bold">$60.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">1/8th</small>
+                            <small class="text-muted">1/4th</small>
+                            <small class="text-muted">1/2th</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                        <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="edibles">
+                        <span class="position-absolute price-badge text-white rounded-2 position-absolute top-0 left-0 z-1">$60 ounce</span>
+                        <span class="position-absolute out-of-stock position-absolute rounded-2 text-white">Out Of Stock</span>
+                        <img src="/assets/weed4.png" class="product-image img-fluid mb-2" alt="Another Product">
+                        <p class="text-uppercase text-muted mb-1 small">Edibles</p>
+                        <h5 class="mb-2">Edible Gummies Name</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">4.2/5</strong> | 
+                            <strong class="text-dark">50</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Hybrid 50%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$50.00</span>
+                            <span class="text-danger fw-bold">$25.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">10mg</small>
+                            <small class="text-muted">25mg</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                        <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="flower">
+                        <img src="/assets/weed5.png" class="product-image img-fluid mb-2" alt="Another Product">
+                        <p class="text-uppercase text-muted mb-1 small">Flower</p>
+                        <h5 class="mb-2">Yet Another Product Name</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">4.9/5</strong> | 
+                            <strong class="text-dark">200</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$180.00</span>
+                            <span class="text-danger fw-bold">$95.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">1/8th</small>
+                            <small class="text-muted">1/4th</small>
+                            <small class="text-muted">1/2th</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                        </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                        <div class="product-card d-flex flex-column h-100 p-3 border rounded bg-white position-relative rounded-3 overflow-hidden justify-content-center text-center" data-category="flower">
+                        <img src="/assets/weed6.png" class="product-image img-fluid mb-2" alt="Another Product">
+                        <p class="text-uppercase text-muted mb-1 small">Flower</p>
+                        <h5 class="mb-2">Yet Another Product Name</h5>
+                        <div class="mb-2">
+                            <span class="text-warning">&#9733;</span> 
+                            <strong class="text-dark">4.9/5</strong> | 
+                            <strong class="text-dark">200</strong>
+                            <span class="text-muted"> Reviews</span>
+                        </div>
+                        <button class="btn btn-sm btn-light text-success fw-normal mb-2">Indica 100%</button>
+                        <div class="mb-3">
+                            <span class="text-decoration-line-through text-muted me-2">$180.00</span>
+                            <span class="text-danger fw-bold">$95.00</span>
+                        </div>
+                        <div class="d-flex justify-content-center mb-3 gap-3">
+                            <small class="text-muted">1/8th</small>
+                            <small class="text-muted">1/4th</small>
+                            <small class="text-muted">1/2th</small>
+                        </div>
+                        <button class="btn-green border-0 rounded-5 mt-auto add-to-cart-btn text-white">Add to Cart</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="no-product-message text-center fw-bold text-muted mb-4 d-none">
+        We are working on it.
+    </div>
+    <section class="refer-a-friend-banner text-white text-center position-relative z-3 container rounded-5">
+        <div class="row align-items-center text-center text-md-start px-5">
+            <div class="col-12 col-md-8">
+                <h2 class="fw-bold">REFER A FRIEND</h2>
+                <p class="lead">And get <span class="fw-bold text-warning">$30!</span></p>
+            </div>
+            <div class="col-12 col-md-4 text-md-end border-0 ">
+                <button class="btn-green border-0 text-white rounded-5 px-4 py-2 border-0">Refer Here</button>
+            </div>
+        </div>
+    </section>
+    <section class="how-to-order-section text-white w-100">
+        <div class="container text-center px-4">
+            <h2 class="mb-3 w-lg-50 fw-bold">HOW TO ORDER WEED ONLINE FROM TOP SHELF BC - MAIL ORDER MARIJUANA</h2>
+            <p>Ordering weed online from Top Shelf BC is easy. We have made the process accessible across multiple platforms and simple to understand, ensuring that more people can come to us to buy their cannabis products online.</p>
+
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-6">
+                    <div class="step-card text-center">
+                        <div class="step-icon-wrapper rounded-circle d-flex align-items-center justify-content-center position-relative">
+                            <img src="/assets/register.png" alt="register">
+                            <span class="step-number-badge rounded-5 d-flex align-items-center justify-content-center fw-bold position-absolute">1</span>
+                            <i class="fas fa-file-invoice"></i>
+                         </div>
+                        <h4 class="mt-5 fw-bold">REGISTER</h4>
+                        <p>Sign up for an account with us. This is quick and simple. We don't require any more details from you than the bare minimum needed for you to place an order and get your product delivered.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="step-card text-center">
+                        <div class="step-icon-wrapper rounded-circle d-flex align-items-center justify-content-center position-relative">
+                            <img src="/assets/shop.png" alt="shop">
+                            <span class="step-number-badge rounded-5 d-flex align-items-center justify-content-center fw-bold position-absolute">2</span>
+                            <i class="fas fa-shopping-bag"></i> </div>
+                        <h4 class="mt-5 fw-bold">SHOP</h4>
+                        <p>Decide on what you want to purchase. We stock a wide range of edibles, flowers, concentrates, and mushrooms; there is bound to be something for everyone.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="step-card text-center">
+                        <div class="step-icon-wrapper rounded-circle d-flex align-items-center justify-content-center position-relative">
+                            <img src="/assets/make-payment.png" alt="payment">
+                            <span class="step-number-badge rounded-5 d-flex align-items-center justify-content-center fw-bold position-absolute">3</span>
+                            <i class="fas fa-wallet"></i> </div>
+                        <h4 class="mt-5 fw-bold">MAKE PAYMENT</h4>
+                        <p>Pay securely. Our site boasts security protection certificates to keep your card details and related data safe.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="step-card text-center">
+                        <div class="step-icon-wrapper rounded-circle d-flex align-items-center justify-content-center position-relative">
+                            <img src="/assets/relax.png" alt="relax">
+                            <span class="step-number-badge rounded-5 d-flex align-items-center justify-content-center fw-bold position-absolute">4</span>
+                            <i class="fas fa-couch"></i> </div>
+                        <h4 class="mt-5 fw-bold">RELAX</h4>
+                        <p>Your product will be packaged discreetly and shipped by Canada Post Xpresspost. We will provide you with a tracking number so you can follow your mail order marijuana every step of the way.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-green border-0 text-white mt-5 rounded-5 ">Choose Your Weed</button>
+        </div>
+    </section>
+    <section class="why-choose-us-section text-center">
+        <div class="container dispensary px-4">
+            <h2 class="mb-3 text-md-start fw-bold">WHAT MAKES US THE <span class="text-warning">#1</span><br> ONLINE MARIJUANA <br> DISPENSARY IN CANADA?</h2>
+            <p class=" text-md-start w-lg-50">When it comes to what makes us the #1 online marijuana dispensary in Canada, we could wax lyrical about our positive qualities. Instead, to make this information more digestible, we've highlighted the six prioritized features that we feel makes us a cut above the rest.</p>
+
+            <div class="row mt-5 justify-content-center">
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="feature-card rounded-2 text-start d-flex flex-column justify-content-start bg-white h-100">
+                        <div class="feature-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/customer.png" alt="customer"> 
+                        </div>
+                        <h4>CUSTOMER SERVICE</h4>
+                        <p>Whether it is answering pre-questions you have about specific products or assisting you with your buying process or taking your feedback into consideration, we are proud to say that we always put our customers — the most important person in the transaction.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="feature-card rounded-2 text-start d-flex flex-column justify-content-start bg-white h-100">
+                        <div class="feature-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/carbon_security.png" alt="carbon-seccurity">
+                        </div>
+                        <h4>SECURITY</h4>
+                        <p>When it comes to security, we only keep what is absolutely necessary to process your payment with us and make an order. When it comes to shipping your mail order marijuana to you, our packaging will only show what was purchased in case if you've purchased it in your business only.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex">
+                    <div class="feature-card rounded-2 text-start d-flex flex-column justify-content-start bg-white h-100">
+                        <div class="feature-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/value.png" alt="value"> 
+                        </div>
+                        <h4>BEST VALUE</h4>
+                        <p>We are constantly adjusting what we supply and/or product that we provide for our customers. We focus on providing an affordable and quality for our products. We invest in the best quality strains and our goal is to provide the best product for now, affordable and high quality weed products.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-5">
+                    <div class="feature-card rounded-2 text-start d-flex flex-column justify-content-start bg-white h-100">
+                        <div class="feature-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/delivery.png" alt="delivery"> 
+                        </div>
+                        <h4>DELIVERY INSURANCE</h4>
+                        <p>All of our cannabis products are insured to ensure that you have peace of mind. We always work with expert suppliers and are always making sure that our quality is top notch. We also make sure that we have only the best available.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-5">
+                    <div class="feature-card rounded-2 text-start d-flex flex-column justify-content-start bg-white h-100">
+                        <div class="feature-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/quality.png" alt="quality">
+                        </div>
+                        <h4>HIGHEST QUALITY</h4>
+                        <p>With over 15 years in the weed business, you can guarantee that we know a thing or two. We can guarantee that we have your best interests in mind. Feel free to check out our reviews.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-5">
+                    <div class="feature-card rounded-2 text-start d-flex flex-column justify-content-start bg-white h-100">
+                        <div class="feature-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/trust.png" alt="trust"> 
+                        </div>
+                        <h4>TRUST</h4>
+                        <p>With over 15 years in the weed business, you can guarantee that we know a thing or two. We can guarantee that we have your best interests in mind. Feel free to check out our reviews.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container px-4 py-5">
+        <h1 class="text-lg-start text-center mb-5 fw-bold">RECENTLY ADDED</h1>
+        <div class="d-flex flex-wrap justify-content-lg-start justify-content-center mb-4 align-items-center flex-lg-row">
+            <span class="me-3 align-self-center fs-5 fw-semibold">Filter by Interest</span>
+            <div class="filter-buttons mt-4 d-flex justify-content-center flex-wrap flex-sm-row flex-column w-100">
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="flower">Flowers</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="mushrooms">Mushrooms</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="concentrate">Concentrate</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="edibles">Edibles</button>
+                <button class="btn btn-outline-secondary rounded-5 filter-btn" data-filter="all">Shop All Weed</button>
+            </div>
+            <a href="recently-added.html" class="ms-lg-auto align-self-center text-success mt-4">Show All</a>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative rounded-3 overflow-hidden bg-white d-flex justify-content-center flex-column text-center" data-category="flower">
+                    <img src="/assets/readmore1.png" class="product-image recently-added" alt="Product Image 1">
+                    <p class="text-uppercase text-muted mb-1" style="font-size: 0.7em;">Flower</p>
+                    <h6 class="mb-2">2 Oz Died Watermelon Zkittlez + Purple Gushers</h6>
+                    <div class="product-details mb-2">
+                        <span class="text-warning">&#9733;</span><strong class="text-dark"> 4.6/5 </strong><span class="text-muted">|<strong class="text-dark">135</strong> Reviews</span>
+                    </div>
+                    <button class="bg-light text-success border-0 fw-normal">Sativa 100%</button>
+                    <div class="product-price mb-3">
+                        <h5 class="text-danger current-price fw-bold">$80.00 <span class="text-muted fs-6 fw-light">/ gram</span></h5>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        <small class="text-muted me-2">28g</small>
+                        <small class="text-muted me-2">1/2th</small>
+                        <small class="text-muted">1/4th</small>
+                    </div>
+                    <button class="btn-green border-0 text-white rounded-5 add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative rounded-3 overflow-hidden bg-white d-flex justify-content-center flex-column text-center" data-category="flower">
+                    <span class="price-badge2 text-white rounded-2 position-absolute top-0 left-0 z-1">$60 ounce</span>
+                    <img src="/assets/readmore2.png" class="product-image recently-added" alt="Product Image 2">
+                    <p class="text-uppercase text-muted mb-1" style="font-size: 0.7em;">Flower</p>
+                    <h6 class="mb-2">2 Oz Died Ahu Tuna + Master Tuna</h6>
+                    <div class="product-details mb-2">
+                        <span class="text-warning">&#9733;</span><strong class="text-dark"> 4.6/5 </strong><span class="text-muted">|<strong class="text-dark">135</strong> Reviews</span>
+                    </div>
+                    <button class="bg-light text-success border-0 fw-normal">Indica 100%</button>
+                    <div class="product-price mb-3">
+                        <span class="old-price text-decoration-line-through">$200.00</span>
+                        <span class="current-price text-danger fw-bold">$102.00 </span>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        <small class="text-muted me-2">28g</small>
+                        <small class="text-muted me-2">1/2th</small>
+                        <small class="text-muted">1/4th</small>
+                    </div>
+                    <button class="btn-green border-0 text-white rounded-5 add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative rounded-3 overflow-hidden bg-white d-flex justify-content-center flex-column text-center" data-category="concentrate">
+                    <span class="out-of-stock position-absolute rounded-2 text-white">Out Of Stock</span>
+                    <img src="/assets/readmore3.png" class="product-image recently-added" alt="Product Image 3">
+                    <p class="text-uppercase text-muted mb-1" style="font-size: 0.7em;">Concentrates</p>
+                    <h6 class="mb-2">Mix And Match Shatter / Budder 28g (4 X 7g)</h6>
+                    <div class="product-details mb-2">
+                        <span class="text-warning">&#9733;</span><strong class="text-dark"> 4.6/5 </strong><span class="text-muted">|<strong class="text-dark">135</strong> Reviews</span>
+                    </div>
+                    <button class="bg-light text-success border-0 fw-normal">Indica 70%</button>
+                    <div class="product-price mb-3">
+                        <span class="old-price text-decoration-line-through">$200.00</span>
+                        <span class="current-price text-danger fw-bold">$120.00 </span>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        <small class="text-muted me-2">28g</small>
+                        <small class="text-muted me-2">1/2th</small>
+                        <small class="text-muted">1/4th</small>
+                    </div>
+                    <button class="btn-green border-0 text-white rounded-5 add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="product-card position-relative rounded-3 overflow-hidden bg-white d-flex justify-content-center flex-column text-center" data-category="flower">
+                    <img src="/assets/readmore4.png" class="product-image recently-added" alt="Product Image 4">
+                    <p class="text-uppercase text-muted mb-1" style="font-size: 0.7em;">Flower</p>
+                    <h6 class="mb-2">2 Oz Died Watermelon Zkittlez + Purple Gushers</h6>
+                    <div class="product-details mb-2">
+                        <span class="text-warning">&#9733;</span><strong class="text-dark"> 4.6/5 </strong><span class="text-muted">|<strong class="text-dark">135</strong> Reviews</span>
+                    </div>
+                    <button class="bg-light text-success border-0 fw-normal">Indica 100%</button>
+                    <div class="product-price mb-3">
+                        <span class="current-price text-danger fw-bold">$80.00 <span class="text-muted fs-6 fw-light">/ gram</span></span>
+                    </div>
+                    <div class="d-flex justify-content-center mb-3">
+                        <small class="text-muted me-2">28g</small>
+                        <small class="text-muted me-2">1/2th</small>
+                        <small class="text-muted">1/4th</small>
+                    </div>
+                    <button class="btn-green border-0 text-white rounded-5 add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <section class="education-section">
+        <div class="container px-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 d-flex mt-4">
+                    <div class="education-card bg-white rounded-3 d-flex flex-column justify-content-center text-center text-md-start h-100">
+                        <div class="education-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/indica.png" alt="indica"> 
+                        </div>
+                        <h4 class="fw-bold px-4">Indica</h4>
+                        <p class="px-4">This type of cannabis is commonly taken by those who want to sink into a state of total relaxation in every limb. This reduces stress and anxiety due to its soothing and calming high. Because of its relaxing effects, it's suggested to use this type of cannabis on a day where you have nothing to do or for people who have trouble sleeping, be it due to insomnia, pain or other associated sleep issues.</p>
+                        <a href="#" class="btn-link py-3 px-4">Shop Indica</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-4">
+                    <div class="education-card bg-white rounded-3 d-flex flex-column justify-content-center text-center text-md-start h-100">
+                        <div class="education-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/sativa.png" alt="sativa">
+                        </div>
+                        <h4 class="fw-bold px-4">Sativa</h4>
+                        <p class="px-4">Contrary to the deep of body relaxation that comes with the use of Indica strains, sativas are more known for providing an energizing high that can assist those in reducing pain and anxiety. This is more of a mild cerebral high in terms of how and where you will feel the effects and it is more common than recommended to use this during the day.</p>
+                        <a href="#" class="btn-link py-3 px-4">Shop Sativa</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-4">
+                    <div class="education-card bg-white rounded-3 d-flex flex-column justify-content-center text-center text-md-start h-100">
+                        <div class="education-icon-wrapper rounded-circle d-flex align-items-center justify-content-center">
+                            <img src="/assets/hybrids.png" alt="hybrids"> 
+                        </div>
+                        <h4 class="fw-bold px-4">Hybrids</h4>
+                        <p class="px-4">Hybrid strains are just that - they combine the best-focused high effects of sativas with the bodily relaxation of Indicas. This is ideal for people who want to feel some of the energizing effects while also clearing the mind; they're ready to focus with some of the energizing effects of sativas while also clearing the mind; they're ready to focus with some specific, powerful, strain vocabulary to familiarize yourself with when it comes to cannabis. Indicas are more of a full, bodily relaxation, Indica dominant (boasting creativity, increasing mood and focus for users), and Sativas (the head of the world).</p>
+                        <a href="#" class="btn-link py-3 px-4">Shop Hybrids</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="weed-education-articles-section text-center">
+        <div class="container px-4">
+            <div class="weed-top d-flex justify-content-md-between flex-md-row flex-column align-items-center">
+                <h2 class="text-md-start text-center fw-bold">WEED EDUCATION</h2>
+                <a class="text-success" href="/weed.html">Show all</a>
+            </div>
+            <hr>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 d-flex mt-5">
+                    <div class="article-card d-flex flex-column overflow-hidden text-start rounded-3 bg-white h-100">
+                        <img src="/assets/weed-edu (1).png" class="img-fluid rounded-3 object-fit-cover" alt="Article Image 1">
+                        <div class="article-card-body d-flex flex-column justify-content-between">
+                            <p>January 04,2023</p>
+                            <h5 class="fw-bold">12 Mistakes To Avoid When Buying Cannabis Online</h5>
+                            <p>Cannabis packaging has advanced immensely over the last 10 years, making the delivery of weed more secure than ever...</p>
+                            <a class="text-success" href="#">Read More.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-5">
+                    <div class="article-card d-flex flex-column overflow-hidden text-start rounded-3 bg-white h-100">
+                        <img src="/assets/weed-edu (3).png" class="img-fluid rounded-3 object-fit-cover" alt="Article Image 3">
+                        <div class="article-card-body d-flex flex-column justify-content-between">
+                            <p>January 20,2023</p>
+                            <h5 class="fw-bold">How To Store Cannabis and Keep it Fresh and Potent?</h5>
+                            <p>Cannabis packaging has advanced immensely over the last 10 years, making the delivery of weed more secure than ever...</p>
+                            <a class="text-success" href="#">Read More.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 d-flex mt-5">
+                    <div class="article-card d-flex flex-column overflow-hidden text-start rounded-3 bg-white h-100">
+                        <img src="/assets/weed-edu (2).png" class="img-fluid rounded-3 object-fit-cover" alt="Article Image 2">
+                        <div class="article-card-body d-flex flex-column justify-content-between">
+                            <p>January 23,2023</p>
+                            <h5 class="fw-bold">The Ultimate Guide to Checking the Quality of Cannabis – 10 Industry Leading Tips</h5>
+                            <p>Quality cannabis is essential for any user. It influences everything from potency and overall experience. It is essential to understand what quality means and how to identify it to prevent unwanted side effects...</p>
+                            <a class="text-success" href="#">Read More.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="discount-banner container rounded-5 z-2 text-white position-relative text-center d-flex justify-content-center">
+        <div class="container px-4">
+            <div class="banner-txt text-md-start">
+                <h2 class="fw-bold fs-1 w-md-50">UNLOCK 20% OFF YOUR FIRST ORDER</h2>
+                <p class="mb-4">Reveal coupon code by entering your email</p>
+            </div>
+            <hr>
+            <div class="container justify-content-md-between">
+                <form>
+                    <div class="row g-2 align-items-center">
+                        <div class="col-12 col-md-8 text-white email-input">
+                            <input type="email" class="form-control rounded-5 srch-input text-white" placeholder="Enter your email" aria-label="Enter your email">
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <button class="btn-green border-0 border-0 text-white w-100 rounded-5 py-2" type="submit">Reveal coupon</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container px-4">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 mb-4 ">
+                    <div class="footer-logo mb-3">
+                        <img src="/assets/footer-logo.png" alt="Top Shelf BC Logo" class="img-fluid">
+                    </div>
+                    <p class="w-75">
+                    #1 Canadian top rated online marijuana dispensary. Our dispensary ranks in every single medical marijuana aspect. The team here at TopShelfBC is heavily involved in the Canadian cannabis industry for over 15 years. We strive to provide the top quality products, services and one of the lowest prices you'll ever find.
+                    </p>
+                    <h5 class="mt-5 fw-bold text-white">CONTACT US</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-decoration-none" href="#">info@topshlefbc.cc</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="mb-4">
+                        <h5 class="fw-bold text-white">QUICK LINK</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none" href="#">Track Your Order</a></li>
+                                    <li><a class="text-decoration-none" href="#">Shop All</a></li>
+                                    <li><a class="text-decoration-none" href="#">Flower</a></li>
+                                    <li><a class="text-decoration-none" href="#">Edibles</a></li>
+                                    <li><a class="text-decoration-none" href="#">Concentrates</a></li>
+                                    <li><a class="text-decoration-none" href="#">Edibles</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none" href="#">Mashrooms</a></li>
+                                    <li><a class="text-decoration-none" href="#">Promotions/ Bundles</a></li>
+                                    <li><a class="text-decoration-none" href="#">Support</a></li>
+                                    <li><a class="text-decoration-none" href="#">Reward</a></li>
+                                    <li><a class="text-decoration-none" href="#">Blog</a></li>
+                                    <li><a class="text-decoration-none" href="#">Shipping Fog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="mt-4 fw-bold text-white">MORE</h5>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none" class="text-decoration-none" href="#">Buy weed online in Canada</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Nova Scotia</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Prince Edward Island</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Northwest Territories</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Saskatchewan</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Manitoba</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Quebec</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in British Columbia</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Ontario</a></li>
+                                    <li><a class="text-decoration-none" href="#">Buy weed online in Alberta</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-12 text-center mb-4">
+                        <div class="payment-icons">
+                            <img src="/assets/footer/card1.png" alt="Visa">
+                            <img src="/assets/footer/card2.png" alt="Mastercard">
+                            <img src="/assets/footer/card3.png" alt="Bitcoin">
+                            <img src="/assets/footer/card4.png" alt="E-transfer">
+                            </div>
+                    </div>
+                </div>
+
+                <div class="copyright-bar d-flex flex-column flex-md-row text-center justify-content-between align-items-center">
+                    <p class="mb-0 text-center text-md-start">&copy; 2025 Top Shelf BC. All Rights Reserved.</p>
+                    <div class="text-center text-md-end">
+                        <a class="text-decoration-none" href="#">Out Of Stock</a>
+                        <a class="text-decoration-none" href="#">Privacy Policy</a>
+                        <a class="text-decoration-none" href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

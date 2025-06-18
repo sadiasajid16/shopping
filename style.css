@@ -1,0 +1,608 @@
+    :root{
+        --bg-color: #17AF26;
+        --card-bg: #05422C;
+        --secondary: #212529;
+        --filter-color: #198754;
+        --badge: #ffc107;
+        --light: #F2F6F4;
+        --dark: #01100B;
+        --light-bg: #F4F4F4;
+        --dark-green: #1a3c2c;
+        --bilbao: #13851e;
+        --success: #28a745;
+        --pale-sky: #6c757d;
+        --hit-gray: #adb5bd;
+        --abbey: #46494F;
+        --holy:#011d06;
+        --dark-gray: #333;
+        --alto: #e0e0e0;
+        --emperor: #555;
+        --gold: #ffd700;
+        --gray: #888;
+        --outer-space: #343a40;
+        --white: #ffffff;
+        --black: #0000000d;
+        --silver: #9e9e9e;
+    }    
+    
+    .btn-green{
+        background-color: var(--bg-color);
+        padding: 5px 30px;
+    }
+    .custom-container {
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn-green:hover{
+        background-color: var(--bilbao);
+    }
+    .btn-bag img{
+        width: 30px;
+        margin-top: -2px;
+    }
+    .top-bar {
+      background-color: var(--dark-green);
+      font-size: 0.85rem;
+      padding: 5px 0;
+    }
+    .category-nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .category-nav a:hover {
+        color: var(--success);
+    }
+    .category-nav a{
+        color: var(--abbey);
+    }
+    .hero {
+        background: conic-gradient(from 180deg, #05422C, #0548);
+    }
+    .cubes {
+        height: 600px;
+    }
+    .cube1 {
+        right: 295px;
+        bottom: 150px;
+        z-index: 10;
+    }
+    .cube2 {
+        bottom: 280px;
+        right: 400px;
+    }
+    .cube3 {
+        bottom: 100px;
+        right: 550px;
+    }
+    .cube-img3,
+    .cube-img2{
+        width: 200px;
+        transition: transform 0.3s ease;
+    }
+    .cube-img1 {
+        width: 280px;
+    }
+    .shipping{
+        margin-top: 50px;
+    }
+    .testimonials-section {
+        padding: 60px 20px;
+    }
+    .section-title {
+        font-size: 2.5em;
+        color: var(--dark-gray);
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+    .testimonials-container {
+        padding-bottom: 10px; 
+        scroll-snap-type: x mandatory; 
+        -webkit-overflow-scrolling: touch;
+    }
+    .testimonial-card {
+        flex: 0 0 auto; 
+        width: 350px; 
+        padding: 30px;
+        box-shadow: 0 4px 15px var(--black);
+        scroll-snap-align: start; 
+    }
+    .google-review-card {
+        background-color: var(--card-bg); 
+    }
+    .review-hr{
+        color: var(--alto);
+    }
+    .google-review-card .google-logo img {
+        max-width: 100px; 
+        filter: brightness(0) invert(1);
+        color: gray;
+        margin-bottom: 10px;
+    }
+    .google-review-card .reviews-count {
+        font-size: 0.9em;
+        opacity: 0.8;
+    }
+    .person-review-card {
+        border: 1px solid var(--alto);
+    }
+    .person-review-card .reviewer-avatar {
+        width: 50px;
+        height: 50px;
+    }
+    .person-review-card .reviewer-name {
+        font-size: 1.1em;
+    }
+    .person-review-card .review-text {
+        font-size: 1em;
+        line-height: 1.6;
+        color: var(--emperor);
+    }
+    .person-review-card .review-date {
+        font-size: 0.85em;
+        color: var(--hit-gray);
+    }
+    .star-rating {
+        color: var(--gold);
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+    .star-rating span {
+        display: inline-block;
+        margin: 0 1px;
+    }
+    .product-card {
+      box-shadow: 0 0.5rem 1rem var(--black);
+      transition: transform 0.2s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .badge-sale {
+      top: 10px;
+      right: 10px;
+      background: var(--gold);
+      padding: 0.25rem 0.5rem;
+      font-size: 0.75rem;
+    }
+    .out-of-stock {
+      top:25%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--black);
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+    }
+    .card-scroller,
+    .testimonials-scroller {
+        scrollbar-width: none; 
+        -ms-overflow-style: none; 
+        white-space: nowrap;
+    }
+    .card-scroller::-webkit-scrollbar,
+    .testimonials-scroller::-webkit-scrollbar {
+        display: none;
+    }
+    .info{
+        background-color: var(--light);
+    }
+
+    .product-card-container,
+    .testimonial-card {
+        width: 300px; 
+        flex: 0 0 auto;
+    }
+    .product-card-weed,
+    .testimonial-card {
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .arrow-btn {
+        transform: translateY(-50%);
+        cursor: pointer;
+        box-shadow: 0 2px 5px var(--black);
+    }
+    .left-arrow {
+        left: 0;
+    }
+    .right-arrow {
+        right: 0;
+    }
+    .seller-card{
+        background-color: var(--card-bg);
+    }
+    .product-card {
+        box-shadow: 0 4px 8px var(--black);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .product-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .price-badge {
+        background-color: var(--badge); 
+        padding: 5px 5px;
+        font-size: 0.8em;
+        width: 40%;
+        }
+    .price-badge2 {
+        background-color: var(--bg-color) ;
+        padding: 5px 5px;
+        font-size: 0.8em;
+        width: 40%;
+    }
+        .filter-buttons .btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .product-details {
+            font-size: 0.9em;
+            color: var(--pale-sky);
+        }
+        .product-price .old-price {
+            color: var(--hit-gray);
+            margin-right: 5px;
+        }
+        .product-price .current-price {
+            color: var(--secondary);
+            font-size: 1.1em;
+        }
+        
+        .promo-main{
+            background-color: var(--card-bg);
+        }
+        .promo-main img{
+            width: 225px;
+        }
+        .product-card-weed img{
+            width: 225px;
+        }
+        .refer-a-friend-banner {
+            background-image: url('/assets/Mask\ group.png');
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: cover;
+            margin-bottom: -100px;
+            padding: 50px 50px;
+        }
+        .refer-a-friend-banner h2 {
+            font-size: 2.5rem;
+        }
+        .refer-a-friend-banner .btn {
+            background-color: var(--badge);
+            border-color: var(--badge);
+            color: var(--outer-space);
+            font-weight: bold;
+            padding: 10px 30px;
+            border-radius: 50px;
+        }
+        .how-to-order-section {
+            background-color: var(--dark);
+            padding: 150px 0;
+        }
+        .how-to-order-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        .how-to-order-section p.lead {
+            max-width: 800px;
+            margin: 0 auto 60px auto;
+            color: var(--hit-gray);
+        }
+        .step-card {
+            margin-bottom: 40px;
+        }
+        .step-icon-wrapper {
+            width: 200px;
+            height: 80px;
+            margin: 0 auto 20px auto;
+        }
+        .step-icon-wrapper i {
+            font-size: 3rem;
+            color: var(--success); 
+        }
+        .step-number-badge {
+            background-color: var(--badge); 
+            color: var(--secondary);
+            width: 30px;
+            height: 30px;
+            top: -10px;
+            left: -10px;
+            font-size: 0.9em;
+        }
+        .step-card h4 {
+            margin-bottom: 15px;
+        }
+        .step-card p {
+            color: var(--hit-gray);
+        }
+        .why-choose-us-section {
+            padding: 80px 0;
+        }
+        .why-choose-us-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+        .why-choose-us-section p.lead {
+            max-width: 900px;
+            margin: 0 auto 60px auto;
+            color: var(--hit-gray); 
+        }
+        .feature-card {
+            color: var(--secondary); 
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px var(--black); 
+        }
+        .feature-icon-wrapper {
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            min-height: 60px;
+            margin-bottom: 20px;
+        }
+        .feature-icon-wrapper i {
+            font-size: 2rem;
+            color: var(--success); 
+        }
+        .feature-card p {
+            font-size: 0.95em;
+            color: var(--pale-sky);
+        }
+        .product-card {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px var(--black);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+       
+        .filter-buttons .btn {
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        .product-details {
+            font-size: 0.9em;
+            color: var(--pale-sky);
+        }
+        .product-price .old-price {
+            text-decoration: line-through;
+            color: var(--hit-gray);
+            margin-right: 5px;
+        }
+        .product-price .current-price {
+            font-weight: bold;
+            color: var(--secondary);
+            font-size: 1.1em;
+        }
+        .add-to-cart-btn {
+            width: 100%;
+        }
+        .recently-added{
+            background-color: var(--light-bg);
+        }
+        .s100{
+            color: var(--holy);
+            
+        }
+        .education-section {
+            padding: 80px 0;
+        }
+        .education-section h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        .education-card {
+            box-shadow: 0 4px 8px var(--black);
+            margin-bottom: 30px;
+        }
+        .education-icon-wrapper {
+            margin: 0 auto 20px auto;
+        }
+        .education-icon-wrapper i {
+            font-size: 2.5rem;
+            color: var(--success);
+        }
+        .education-card h4 {
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+        .education-card p {
+            font-size: 0.95em;
+            color: var(--pale-sky);
+            margin-bottom: 25px;
+            flex-grow: 1;
+        }
+        .education-card .btn-link {
+            color: var(--success);
+        }
+        .education-section .show-all-link {
+            font-weight: bold;
+            text-decoration: none;
+            color: var(--success);
+        }
+        .weed-education-articles-section {
+            background-color: var(--light-bg);
+            padding: 80px 0;
+        }
+        .weed-education-articles-section h2 {
+            font-size: 2.5rem;
+            color: var(--secondary);
+        }
+        .article-card {
+            box-shadow: 0 4px 8px var(--black);
+            margin-bottom: 30px;
+        }
+        .article-card img {
+            width: 100%;
+            height: 200px; 
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .article-card-body {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .article-card h5 {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+        .article-card p {
+            font-size: 0.9em;
+            color: var(--pale-sky);
+            flex-grow: 1;
+            margin-bottom: 15px;
+        }
+
+        .discount-banner {
+            background-color: var(--card-bg);
+            padding: 60px 0;
+            margin-bottom: -180px;
+        }
+        .email-input input.form-control {
+            background: transparent;
+            padding: 10px 20px;
+            border: 1px solid var(--silver);
+        }
+        .email-input input.form-control::placeholder {
+            color: var(--white) !important;
+            opacity: 1 !important; 
+        }
+        .site-footer {
+            background-color: var(--secondary);
+            color: var(--hit-gray);
+            padding: 60px 0 30px 0;
+            font-size: 0.95em;
+            padding-top: 280px;
+        }
+        .site-footer h5 {
+            margin-bottom: 25px;
+        }
+        .site-footer ul {
+            padding: 0;
+            margin: 0;
+        }
+        .site-footer ul li {
+            margin-bottom: 10px;
+        }
+        .site-footer ul li a {
+            color: var(--hit-gray);
+            transition: color 0.3s ease;
+        }
+        .site-footer ul li a:hover {
+            color: var(--white);
+        }
+        .site-footer .footer-logo {
+            margin-bottom: 20px;
+        }
+        .site-footer .footer-logo img {
+            max-height: 40px;
+            filter: brightness(0) invert(1);
+        }
+        .site-footer .payment-icons img {
+            max-height: 25px; 
+            margin-right: 10px;
+        }
+        .site-footer .copyright-bar {
+            border-top: 1px solid var(--outer-space);
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+        .site-footer .copyright-bar a {
+            color: var(--hit-gray);
+            margin: 0 10px;
+        }
+        .site-footer .copyright-bar a:hover {
+            color: var(--white);
+        }
+        .filter-btn.active {
+            background-color: var(--filter-color);
+            border-color: var(--filter-color);
+            color: var(--white);
+        }
+        .srch-input{
+            width: 90%;
+        }
+        .srch-input::placeholder {
+            color: var(--white);
+            opacity: 1;
+        }
+        /*Responsiveness */
+        @media(min-width:350px) and (max-width: 990px) {
+            .padding{
+                padding-left: 20px;
+                padding-right:20px;
+            }
+            .info-section{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+            .navbar-collapse {
+                background-color: var(--white);
+                padding: 1rem;
+            }
+            .category-nav a {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+             .offcanvas.offcanvas-end {
+                width: 60% !important;
+            }
+            .toggle-acc{
+               border: 1px solid var(--alto);
+               padding: 5px;
+               color: var(--gray);
+            }
+        }
+        @media(min-width:350px) and (max-width: 768px) {
+            .testimonials-content h2,
+            .how-to-order-section h2,
+            .dispensary h2,
+            .weed-education-articles-section h2,
+            .refer-a-friend-banner h2{
+                font-size: 1.6rem;
+                font-weight: bold;
+            }
+            .section-title {
+                font-size: 2em;
+            }
+            .testimonial-card {
+                width: 300px; 
+                padding: 25px;
+            }
+            .cube-img1,
+            .cube-img2,
+            .cube-img3{
+                display: none;
+            }
+            .cubes{
+                display: none;
+            }
+            .discount-bottom{
+                flex-direction: column
+                
+                ;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .testimonials-section {
+                padding: 40px 15px;
+            }
+            .testimonial-card {
+                width: 90vw; 
+                margin: 0 auto;
+            }
+        }
